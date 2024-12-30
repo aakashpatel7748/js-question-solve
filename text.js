@@ -284,9 +284,94 @@
 // 27- Sum up to n terms.
 // solve:-
 
-// let sum = 0;
-
-// for(let i = 1; i <= 10; i++){
-//     sum = sum += i;
-//     console.log(sum);
+// 
+// let sum = 10;
+// let ans = 0;
+// for(let i = 0; i <= sum; i++){
+//      ans += i;
+//     // console.log(i);
 // }
+// console.log(ans)
+
+
+
+// let input = prompt("Enter a number");
+// let n = parseInt(input);
+
+// for(let i = 1; i <= n; i++){
+//      if(i%2 === 0)
+//     console.log(i);
+// }ans :-- 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ext.
+
+// 28- Factorial of a number
+
+// solve:-
+
+// let n = 5;
+
+// let ans = 1;
+
+// for(let i=1; i<= n; i++ ){
+//     ans *= i;
+// }
+// console.log(`factorial of ${n} is ${ans}`);
+
+// // 29- Print the sum of all even & odd numbers in a range seperately.
+
+// let sumEven = prompt("enter a number ");
+// let even = 0;
+// for(let i = 0; i <= sumEven; i++){
+    
+//     if(i%2 === 0){
+//         even =+ i;
+//         console.log(`sun of even number is ${i}`);
+// }else if(i%2 !==0){
+//     console.log(`sum of odd number is ${i}`);
+// }
+
+// }
+
+// 30- Print all the factors of a number.
+
+// let num =  prompt("enter a number")
+
+// for(let i = 1; i<= num; i++){
+//     if (num % i === 0) {
+//         console.log(i)
+        
+//     }
+// }
+
+// 31- Print the sum of all factors of a number, 50 -> 1 + 2 + 5 + 10 + 25 = 43
+//  let num =  prompt("enter a number")
+//  let sum = 0;
+// for(let i = 1; i<= num; i++){
+//     if (num % i === 0) {
+//         // console.log(i)
+//         sum += i;
+//     }
+// }
+// console.log(sum)
+
+
+// 32- Check if the number is Prime or not.////////////////////////////////////////////
+
+let n = 5 ;
+let flag = true;
+for(let i = 2; i <= n/2; i++){
+    if(n % i === 0){
+        flag = false;
+    }
+}
+console.log(flag)
+
+
+// 33- Write a program to take two inputs a, b & find the value of a  raised to the power of b. 
+// 	Ex - a = 2, b = 5
+// 	OP - 2^5 = 32
+
+// solve:-
+let a = 2;
+let b = 5;
+
+for
