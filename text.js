@@ -356,14 +356,14 @@
 
 // 32- Check if the number is Prime or not.////////////////////////////////////////////
 
-let n = 5 ;
-let flag = true;
-for(let i = 2; i <= n/2; i++){
-    if(n % i === 0){
-        flag = false;
-    }
-}
-console.log(flag)
+// let n = 5 ;
+// let flag = true;
+// for(let i = 2; i <= n/2; i++){
+//     if(n % i === 0){
+//         flag = false;
+//     }
+// }
+// console.log(flag)
 
 
 // 33- Write a program to take two inputs a, b & find the value of a  raised to the power of b. 
@@ -371,7 +371,27 @@ console.log(flag)
 // 	OP - 2^5 = 32
 
 // solve:-
-let a = 2;
-let b = 5;
+// let a = 2;
+// let b = 5;
 
-for
+// let ans = (a** b)
+
+// console.log(`${a}^${b} = ${ans}`)
+
+// let a = 1;
+// for(let i = 0; i <=10; i++){
+//     for()
+// }
+
+//62- Linear Search an array - If element found print the index else -1
+
+// solve:-
+
+let a = [1, 2,3 ,4 ,5, 6, 7, 8];
+let f = 3;
+
+for(let i = 0; i<a.length; i++){
+    if(a[i] === f){
+        console
+}
+}
